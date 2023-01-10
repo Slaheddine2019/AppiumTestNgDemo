@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Qacart to do App]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Android(failed)">
+    <parameter name="platformVersion" value="8.1.0"/>
+    <parameter name="platformName" value="Android"/>
+    <parameter name="deviceName" value="HUAWEI Y7 Prime 2019"/>
+    <classes>
+      <class name="com.app.tests.LoginScreenTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="testWithValidEmailAndPassword"/>
+          <include name="afterSuite"/>
+          <include name="end"/>
+          <include name="Beforesuite"/>
+          <include name="BeforeTest"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.app.tests.LoginScreenTest -->
+    </classes>
+  </test> <!-- Android(failed) -->
+</suite> <!-- Failed suite [Qacart to do App] -->
